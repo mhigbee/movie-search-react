@@ -1,9 +1,13 @@
 import React from 'react';
+import GlobalStyles from './Components/SiteStructure/GlobalStyles';
 import Header from './Components/Header';
 
 function App() {
   return (
-    <Header headingText="Movie Search"/>
+    <React.Fragment>
+      <GlobalStyles/>
+      <Header headingText="Movie Search"/>
+    </React.Fragment>
   );
 }
 
